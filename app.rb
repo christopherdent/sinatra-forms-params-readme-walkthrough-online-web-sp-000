@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
  post '/food_form' do 
-   "Hi"
+   "My name is #{name} and I like #{favorite_food}"
  end
 
 end
